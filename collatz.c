@@ -19,17 +19,17 @@ int sayiiste()
 
 void  main(void)
 {
-    int girilen = 0;
+	int girilen = 0;
 	
 	do
 	{
 		girilen = sayiiste();
 	}
 	while(girilen <= 0);
-	
+
 	program(girilen);
 	
-    return 0;
+	return 0;
 }
 
 
